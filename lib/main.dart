@@ -4,6 +4,7 @@ void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
+  var g=9;
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
